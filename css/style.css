@@ -1,9 +1,9 @@
 *
 h1{
-    color: black;
+    color: white;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(154, 13, 13);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
@@ -11,7 +11,7 @@ body{
 a {
     width: 200px;               
     height:30px;                           
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(154, 13, 13);
     color: rgb(243, 243, 243);
     border-radius: 5px;
     padding: 10px;
@@ -34,185 +34,67 @@ nav ul li{
     height: 600px;
     display: grid;
     grid-template-areas: 
-    'caja-1 caja-2 caja-3 caja-4 caja-5 caja-6'
-    'caja-7 caja-7 caja-7 caja-7 caja-7 caja-7'
-    'caja-7 caja-7 caja-7 caja-7 caja-7 caja-7'
-    'caja-8 caja-9 caja-9 caja-9 caja-9 caja-10'
-    'caja-11 caja-11 caja-12 caja-12 caja-13 caja-13'
-    'caja-14 caja-14 caja-14 caja-15 caja-15 caja-15'
-    'caja-14 caja-14 caja-14 caja-15 caja-15 caja-15';
-
-    background-color: chartreuse;
-    border: 1px solid black;
-}
-
-.grid-layou{
-    height: 600px;
-    display: grid;
-    grid-template-areas: 
     'caja-1 caja-1 caja-1 caja-1 caja-1 caja-1'
-    'caja-1 caja-1 caja-1 caja-1 caja-1 caja-1'
-    'caja-2 caja-2 caja-3 caja-3 caja-4 caja-4'
-    'caja-5 caja-5 caja-5 caja-6 caja-6 caja-6'
-    'caja-5 caja-5 caja-5 caja-6 caja-6 caja-6'
-    'caja-5 caja-5 caja-5 caja-7 caja-8 caja-9'
-    'caja-5 caja-5 caja-5 caja-7 caja-8 caja-9'
-    'caja-10 caja-10 caja-11 caja-11 caja-12 caja-12'
-    'caja-10 caja-10 caja-11 caja-11 caja-12 caja-12';
+    'caja-2 caja-2 caja-2 caja-2 caja-2 caja-2'
+    'caja-2 caja-2 caja-2 caja-2 caja-2 caja-2'
+    'caja-3 caja-3 caja-4 caja-4 caja-4 caja-4'
+    'caja-3 caja-3 caja-4 caja-4 caja-4 caja-4'
+    'caja-5 caja-5 caja-6 caja-6 caja-7 caja-7'
+    'caja-5 caja-5 caja-6 caja-6 caja-7 caja-7'
+    'caja-8 caja-8 caja-8 caja-8 caja-8 caja-8';
 
-    background-color: chartreuse;
-    border: 1px solid black;
-}
-
-.grid-layo{
-    height: 600px;
-    display: grid;
-    grid-template-areas: 
-    'caja-1 caja-2 caja-2 caja-2 caja-2 caja-3'
-    'caja-4 caja-5 caja-6 caja-7 caja-8 caja-9'
-    'caja-10 caja-10 caja-11 caja-11 caja-12 caja-12'
-    'caja-10 caja-10 caja-11 caja-11 caja-12 caja-12'
-    'caja-10 caja-10 caja-13 caja-13 caja-14 caja-15'
-    'caja-10 caja-10 caja-13 caja-13 caja-14 caja-15'
-    'caja-16 caja-17 caja-18 caja-19 caja-20 caja-20'
-    'caja-16 caja-17 caja-18 caja-19 caja-20 caja-20'
-    'caja-21 caja-21 caja-21 caja-21 caja-20 caja-20'
-    'caja-21 caja-21 caja-21 caja-21 caja-20 caja-20';
-
-    background-color: chartreuse;
-    border: 1px solid black;
-}
-
-.grid-lay{
-    height: 600px;
-    display: grid;
-    grid-template-areas: 
-    'caja-1 caja-2 caja-2 caja-2 caja-2 caja-2'
-    'caja-3 caja-3 caja-3 caja-3 caja-3 caja-3'
-    'caja-4 caja-4 caja-5 caja-5 caja-6 caja-6'
-    'caja-7 caja-7 caja-7 caja-7 caja-7 caja-7';
-
-    background-color: chartreuse;
-    border: 1px solid black;
+    border: 0px solid black;
+    padding: 10px 600px 10px;
 }
 
 .caja{
-    border: 4px solid black;
-    background-color: rgb(119, 178, 226);
+    background-color: rgb(38, 38, 38);
     text-align: center;
     padding: 10px;
+    color: white;
 }
 
 
 .c1{
     grid-area: caja-1;
-    background-color: aqua;
     color: black;
 }
 
 .c2{
     grid-area: caja-2;
-    background-color: rgb(209, 221, 101);
     color: black;
 }
 .c3{
     grid-area: caja-3;
-    background-color: rgb(233, 155, 39);
+    background-color: rgb(154, 13, 13);
     color: black;
 }
 .c4{
     grid-area: caja-4;
-    background-color: rgb(70, 53, 28);
+
 }
 .c5{
     grid-area: caja-5;
-    background-color: rgb(228, 129, 183);
     color: black;
 }
 .c6{
     grid-area: caja-6;
-    background-color: rgb(219, 33, 33);
     color: black;
 }
 
 .c7{
     grid-area: caja-7;
-    background-color: rgb(26, 82, 167);
 }
 
 .c8{
     grid-area: caja-8;
-    background-color: rgb(123, 214, 18);
     color: black;
 }
 
-.c9{
-    grid-area: caja-9;
-    background-color: rgb(255, 238, 0);
-    color: black;
+video{
+    padding: 1px 1px 1px;
 }
 
-.c10{
-    grid-area: caja-10;
-    background-color: rgb(236, 243, 240);
-    color: black;
-}
-
-.c11{
-    grid-area: caja-11;
-    background-color: rgb(0, 255, 145);
-    color: black;
-}
-
-.c12{
-    grid-area: caja-12;
-    background-color: rgb(168, 168, 168);
-    color: black;
-    
-}
-
-.c13{
-    grid-area: caja-13;
-    background-color: rgb(128, 12, 12);
-}
-
-.c14{
-    grid-area: caja-14;
-    background-color: rgb(94, 92, 12);
-}
-
-.c15{
-    grid-area: caja-15;
-    background-color: rgb(20, 88, 14);
-}
-
-.c16{
-    grid-area: caja-16;
-    background-color: rgb(46, 21, 87);
-}
-
-.c17{
-    grid-area: caja-17;
-    background-color: rgb(61, 66, 64);
-}
-
-.c18{
-    grid-area: caja-18;
-    background-color: rgb(70, 41, 14);
-}
-
-.c19{
-    grid-area: caja-19;
-    background-color: rgb(18, 40, 68);
-}
-
-.c20{
-    grid-area: caja-20;
-    background-color: rgb(21, 88, 61);
-}
-
-.c21{
-    grid-area: caja-21;
-    background-color: rgb(91, 168, 137);
-    color: black;
+p{
+    color: white;
 }
